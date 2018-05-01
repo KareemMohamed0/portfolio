@@ -2,14 +2,13 @@
 .img-thumbnail{
     border: none;
 }
-a{
+.link{
     color: #2d3c49;
     font-size: 13px;
 }
-a:hover{
+.link:hover{
     text-decoration: none;
     color: #2d3c49;
-
 }
 .color-main-1{
     color: #2d3c49;
@@ -18,10 +17,10 @@ a:hover{
     color: #7d97ad;
 }
 /* header css */
-.header .container{
+.header {
     border-bottom: 2px solid #7d97ad;
 }
-.header .logo {
+.logo {
     width: 150px;
     height: 150px;
 }
@@ -29,7 +28,7 @@ a:hover{
 .intro{
     margin: 30px 0;
 }
-.intro .image {
+.intro-image {
     width: 100%;
     padding-top: 50%;
     background-image: url("http://via.placeholder.com/2350x1350");
@@ -37,6 +36,6 @@ a:hover{
     background-position: center;
 }
 /* work css  */
-.work .body{
+.body{
     overflow: hidden;
 }
